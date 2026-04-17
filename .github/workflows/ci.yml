@@ -9,8 +9,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
-steps:
+
+    steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-dotnet@4
       with:
