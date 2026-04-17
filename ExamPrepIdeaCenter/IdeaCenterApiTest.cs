@@ -180,7 +180,7 @@ namespace ExamPrepIdeaCenter
 
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.BadRequest), "Expected status code 400 Bad Request.");
             Assert.That(response.Content, Is.EqualTo("\"There is no such idea!\""));
-        }
+        }        
 
         [Order(7)]
         [Test]
